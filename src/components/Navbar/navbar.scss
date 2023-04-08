@@ -1,0 +1,62 @@
+@import "../../vars/vars.scss";
+
+.wg__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $light;
+  padding: 10px 0;
+}
+
+.wg__navbar-logo {
+  display: flex;
+  align-items: center;
+
+  p {
+    font-family: $font;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    color: $dark;
+    margin: 5px;
+  }
+}
+
+.wg__navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  p {
+    font-family: $font;
+    font-size: 17px;
+    font-weight: 500;
+    color: $dark;
+
+    margin: 10px;
+  }
+
+  input {
+    min-height: 33px;
+    border: 1px solid $orange;
+    font-family: $font;
+    font-size: 15px;
+    text-indent: 5px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  button {
+    border: 0;
+    background-color: $orange;
+    padding: 5px;
+  }
+
+  button:hover {
+    background-color: $dark;
+  }
+
+}
