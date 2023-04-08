@@ -1,0 +1,47 @@
+@import "../../vars/vars.scss";
+
+body {
+  background: url(../../assets/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wg__home {
+  display: flex;
+  justify-content: center;
+}
+
+.wg__home-main {
+  display: flex;
+  flex-direction: column;
+  background-color: $light;
+  height: 600px;
+  width: 80%;
+  margin-top: 5rem;
+  background-color: $light;
+}
+
+.wg__home-main_menu {
+  position: fixed;
+  top: 175px;
+  button {
+    width: 150px;
+    height: 50px;
+    background-color: $light;
+    border: none;
+    border-bottom: 7px solid $orange;
+    margin-right: 5px;
+
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 400;
+    color: $light;
+    background-color: $dark;
+  }
+
+  button:hover {
+    background-color: $orange;
+  }
+}
