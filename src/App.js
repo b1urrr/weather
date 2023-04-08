@@ -3,9 +3,13 @@ import "./App.css";
 /* TODO: 
 
   SETUP:
+
     TODO: GitHub/Firebase CI/CD
     TODO: How to hide API key
 
+  STYLING:
+  
+    Try using SASS
 
   MVP:
 
@@ -14,12 +18,18 @@ import "./App.css";
     5days - https://openweathermap.org/forecast5
     Bulgaria / Europe / World - figure it out
 
+
+  Bonus Features:
+    
+    Interactive Map to select cities
+    A list of current weather in European Capitals
+
 */
 
 function App() {
   return (
     <>
-      <h1>ASD</h1>
+      <h1>DFF</h1>
     </>
   );
 }
