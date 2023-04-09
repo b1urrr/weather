@@ -18,12 +18,14 @@ body {
   flex-direction: column;
   background-color: $light;
   height: 600px;
-  width: 80%;
+  width: 60%;
   margin-top: 5rem;
   background-color: $light;
 }
 
 .wg__home-main_menu {
+  display: flex;
+  align-items: flex-start;
   position: fixed;
   top: 175px;
   button {
@@ -43,5 +45,9 @@ body {
 
   button:hover {
     background-color: $orange;
+  }
+
+  button:focus {
+    height: 70px;
   }
 }

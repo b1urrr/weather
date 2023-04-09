@@ -14,12 +14,14 @@ body {
   flex-direction: column;
   background-color: rgb(243, 243, 243);
   height: 600px;
-  width: 80%;
+  width: 60%;
   margin-top: 5rem;
   background-color: rgb(243, 243, 243);
 }
 
 .wg__home-main_menu {
+  display: flex;
+  align-items: flex-start;
   position: fixed;
   top: 175px;
 }
@@ -38,4 +40,7 @@ body {
 }
 .wg__home-main_menu button:hover {
   background-color: rgb(255, 162, 23);
+}
+.wg__home-main_menu button:focus {
+  height: 70px;
 }/*# sourceMappingURL=home.css.map */
