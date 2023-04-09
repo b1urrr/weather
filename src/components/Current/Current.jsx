@@ -10,7 +10,7 @@ import './current.css';
 const Current = () => {
 
     // Populates the weather in Sofia on page load
-    useEffect(() => {
+    const onLoad = useEffect(() => {
         getWeather();
       }, []);
 
@@ -30,15 +30,15 @@ const Current = () => {
     const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + units
     
     // Handles the change in the input
-    // const handleChange = (event) => {
-    //     setCity(event.target.value)
-    // }
+    const handleChange = (event) => {
+        setCity(event.target.value)
+    }
 
-    // // When the button is clicked it sets the input city and makes a new API call for that city
-    // const handleClick = () => {
-    //     setUpdatedCity(city)
-    //     getWeather()
-    // }
+    // When the button is clicked it sets the input city and makes a new API call for that city
+    const handleClick = () => {
+        setUpdatedCity(city)
+        getWeather()
+    }
 
     // API call function
     const getWeather = () => {
