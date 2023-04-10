@@ -22,25 +22,31 @@ body {
 .wg__home-main_menu {
   display: flex;
   align-items: flex-start;
-  position: fixed;
-  top: 175px;
 }
 .wg__home-main_menu button {
-  width: 150px;
+  width: 25%;
   height: 50px;
   background-color: rgb(243, 243, 243);
   border: none;
   border-bottom: 7px solid rgb(255, 162, 23);
-  margin-right: 5px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: rgb(243, 243, 243);
   background-color: rgb(31, 31, 31);
+  margin-right: 2px;
+}
+.wg__home-main_menu button:first-child {
+  width: 50%;
+}
+.wg__home-main_menu button:last-child {
+  margin-right: 0;
 }
 .wg__home-main_menu button:hover {
   background-color: rgb(255, 162, 23);
 }
 .wg__home-main_menu button:focus {
   height: 70px;
+  background-color: rgb(255, 162, 23);
+  border-color: rgb(31, 31, 31);
 }/*# sourceMappingURL=home.css.map */

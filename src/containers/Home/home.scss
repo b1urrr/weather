@@ -26,21 +26,26 @@ body {
 .wg__home-main_menu {
   display: flex;
   align-items: flex-start;
-  position: fixed;
-  top: 175px;
   button {
-    width: 150px;
+    width: 25%;
     height: 50px;
     background-color: $light;
     border: none;
     border-bottom: 7px solid $orange;
-    margin-right: 5px;
-
     font-family: $font;
     font-size: 18px;
     font-weight: 400;
     color: $light;
     background-color: $dark;
+    margin-right: 2px;
+  }
+  
+  button:first-child {
+    width: 50%;
+  }
+
+  button:last-child {
+    margin-right: 0;
   }
 
   button:hover {
@@ -49,5 +54,7 @@ body {
 
   button:focus {
     height: 70px;
+    background-color: $orange;
+    border-color: $dark;
   }
 }

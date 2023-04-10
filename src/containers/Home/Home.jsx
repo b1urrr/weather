@@ -10,14 +10,15 @@ const Home = () => {
 
 
         <div className='wg__home-main'>
-        <div className='wg__home-main_current'>
-            <Current />
-        </div>
         <div className='wg__home-main_menu'>
             <button>В момента</button>
             <button>3 часа</button>
             <button>5 дни</button>
         </div>
+        <div className='wg__home-main_current'>
+            <Current />
+        </div>
+
         </div>
     </div>
   )
